@@ -41,4 +41,4 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 VOLUME ["/etc/bird", "/var/run/bird"]
 ENTRYPOINT ["/usr/sbin/bird"]
 
-CMD ["-d", "-f", "-c", "/etc/bird/bird.conf", "-s", "/run/bird.ctl"]
+CMD ["-d", "-f", "-c", "/etc/bird/bird.conf"]
