@@ -31,6 +31,7 @@ RUN set -eux \
  && mkdir -p /var/run/bird
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
+    libreadline8 \
     iproute2 \
     tcpdump \
     curl \
