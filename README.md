@@ -19,6 +19,5 @@ docker run -it --rm --name birdc -v/srv/bird/run:/var/run/bird --entrypoint=/usr
 
 ```shell
 git clone https://github.com/kyokuheki/docker-bird.git
-cd docker-bird
 docker build docker-bird -t bird
 ```
